@@ -1,10 +1,16 @@
+@media only screen and (min-width: 321px) {
+	.container {
+		display: table;
+		width: 100%;
+	}
+	.row { display: table-row; }
+	.column { display: table-cell; }
+}
 
 
 body {
     background: #FFFFFF;
     font: 12pt/1.4 "Arial", "Helvetica"; 
-    max-width: 600px;
-    margin: 0 auto;
 
 }
 h1{color: #000000}
@@ -51,8 +57,24 @@ h1{color: #000000}
 		vertical-align: middle;
 	}
 	.wrapper {
-		border: 1px solid black;
+
 		margin: 0 auto;
-		width: 200px;
+		width: 500px;
 	}
 
+
+#holder { 
+width:300px; 
+} 
+
+#pic1 { 
+float: left; 
+width: 140px; 
+margin-right: 5px; 
+} 
+
+#pic2 { 
+float: right; 
+width: 140px; 
+margin-left: 5px; 
+} 
