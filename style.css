@@ -62,19 +62,3 @@ h1{color: #000000}
 		width: 500px;
 	}
 
-
-#holder { 
-width:300px; 
-} 
-
-#pic1 { 
-float: left; 
-width: 140px; 
-margin-right: 5px; 
-} 
-
-#pic2 { 
-float: right; 
-width: 140px; 
-margin-left: 5px; 
-} 
